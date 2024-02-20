@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>LEARNER'S STOP</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+        body {
+            font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-size: 28px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #34495e;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: 20px 20 px 20px 20px; 
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            width: 100%;
+            max-width: 2400px;
+            margin: 0 auto;
+        }
+
+        .about-us,
+        .sign-in,
+        .sign-up {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 30%;
+            color: #333;
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-us:hover,
+        .sign-in:hover,
+        .sign-up:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #555;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        .social-icons a {
+            margin: 0 20px;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>LearnNest - Your E-Learning Partner</h2>
+    </header>
+
+    <section>
+        <div class="flex-container">
+            <div class="about-us" id="about-us">
+                <h2>About Us</h2>
+                <p>Welcome to LearnNest, your one-stop destination for online education. Explore a world of knowledge with us!</p>
+            </div>
+
+            <div class="sign-in" id="sign-in">
+                <h2>Sign In</h2>
+                <p>Existing user click below!! </p>
+                <form action="signIn.html" method="get">
+        <button type="submit" class="sign-in-btn">Sign In</button>
+    </form>
+            </div>
+
+            <div class="sign-up" id="sign-up">
+                <h2>Sign Up</h2>
+                <p>New user click below!! </p>
+                <form action="signUp.html" method="get">
+                <button type="submit" class="sign-up-btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569900%7Cb%7Cfacebook%20log%20in%7C&placement=&creative=589460569900&keyword=facebook%20log%20in&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1409266755%26loc_physical_ms%3D9182246%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=CjwKCAiAlcyuBhBnEiwAOGZ2SxLYE61S8Wjzb72RoFAtfWmNy4ucXsJwaeJlQ6rRjBDgnquX5Xmr3hoCYykQAvD_BwE" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-square fa-3x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/abirami-senthilkumar-43721a245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+
+        <a href="https://www.instagram.com/abi._.28?igsh=MWg0NHUxa2IwaGJpag==" target="_blank" rel="noopener noreferrer">
+            <img src="E:\WEBSITE WITH HTML CSS\instalogo.jpg" alt="Instagram" width="50" height="40">
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2024 E-Learning Hub. All rights reserved.
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>SIGN IN PAGE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+        body {
+            font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-size: 28px;
+        }
+
+        .welcome-text {
+            text-align: center;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 300px;
+            margin: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #34495e;
+        }
+
+        button[type="reset"] {
+            background-color: #e74c3c;
+        }
+
+        button[type="reset"]:hover {
+            background-color: #c0392b;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        .social-icons a {
+            margin: 0 20px;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>LearnNest - Your E-Learning Partner</h2>
+    </header>
+
+    <div class="welcome-text">
+        <p>Welcome to the Sign In Page. Please enter your credentials below:</p>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569900%7Cb%7Cfacebook%20log%20in%7C&placement=&creative=589460569900&keyword=facebook%20log%20in&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696221912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1409266755%26loc_physical_ms%3D9182246%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=CjwKCAiAlcyuBhBnEiwAOGZ2SxLYE61S8Wjzb72RoFAtfWmNy4ucXsJwaeJlQ6rRjBDgnquX5Xmr3hoCYykQAvD_BwE"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-square fa-3x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/abirami-senthilkumar-43721a245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+
+        <a href="https://www.instagram.com/abi._.28?igsh=MWg0NHUxa2IwaGJpag==" target="_blank" rel="noopener noreferrer">
+            <img src="E:\WEBSITE WITH HTML CSS\instalogo.jpg" alt="Instagram" width="50" height="40">
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2024 E-Learning Hub. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
